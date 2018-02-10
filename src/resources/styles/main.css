@@ -1,0 +1,39 @@
+.root{
+}
+
+
+.button-search {
+  -fx-background-color:
+       -fx-shadow-highlight-color,
+       -fx-outer-border,
+       -fx-inner-border,
+       -fx-body-color;
+ /* -fx-background-insets: 0 0 -1 0, 0, 1, 2;*/
+   -fx-border-radius: 5 5 5 5;
+  /*-fx-background-radius: 3 3 2 1;*/
+}
+.curvey_corner{
+ -fx-border-radius: 0 0 10 10;
+  -fx-background-radius: 0 0 10 10;
+}
+.cardview{
+-fx-effect: dropshadow(gaussian, rgb(0.0, 0.0, 0.0, 0.15), 6.0, 0.7, 0.0,1.5);
+-fx-background-color: white;
+}
+.simple_cardview{
+-fx-effect: dropshadow(gaussian, rgb(0.0, 0.0, 0.0, 0.15), 6.0, 0.7, 0.0,1.5);
+
+}
+.text-field
+{
+    -fx-prompt-text-fill: #fff; /*Yellow - floating label*/
+    -fx-text-fill: #fff; /*Yellow - input color*/
+    -fx-highlight-fill: #4eb769; /*Green*/
+}
+
+.scroll-pane {
+   -fx-background-color: transparent;
+}
+.scroll-pane > .viewport {
+   -fx-background-color: transparent;
+}

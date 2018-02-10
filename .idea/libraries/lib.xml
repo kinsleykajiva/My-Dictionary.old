@@ -1,0 +1,23 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/dist/lib/commons-compress-1.14.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/gson-2.8.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/fontawesomefx-8.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/controlsfx-8.40.13.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/jfoenix.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/sqlite-jdbc-3.19.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/commons-csv-1.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/okio-1.13.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/eclipse-collections-9.1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/eclipse-collections-api-9.1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/guava-22.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/guice-4.1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/commons-io-2.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/commons-lang3-3.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/okhttp-3.8.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

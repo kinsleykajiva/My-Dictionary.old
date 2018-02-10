@@ -5,10 +5,11 @@
     <vendor>Kajiva Kinsley</vendor>
     <description>null</description>
     <offline-allowed/>
+  <shortcut><desktop/></shortcut>
   </information>
   <resources>
     <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
-    <jar href="My-Dictionary.jar" size="5814" download="eager" />
+    <jar href="My-Dictionary.jar" size="8069" download="eager" />
     <jar href="lib\commons-compress-1.14.jar" size="530012" download="eager" />
     <jar href="lib\commons-csv-1.5.jar" size="41586" download="eager" />
     <jar href="lib\commons-io-2.6.jar" size="214788" download="eager" />
