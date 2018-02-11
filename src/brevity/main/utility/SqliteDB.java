@@ -64,7 +64,7 @@ public class SqliteDB {
     }
     public ImmutableList<WordMeanings> getWords(){
         MutableList<WordMeanings> ret = Lists.mutable.empty();
-        String sql = "SELECT * FROM dictionary WHERE id='1'";
+        String sql = "SELECT * FROM dictionary LIMIT 100";
 
         try (Connection conn = this.connect();
              Statement stmt  = conn.createStatement();

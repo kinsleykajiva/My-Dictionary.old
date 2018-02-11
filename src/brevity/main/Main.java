@@ -6,6 +6,10 @@
 package brevity.main;
 
 import java.net.URL;
+import java.util.logging.LogManager;
+
+import brevity.main.framework.StageManager;
+import brevity.main.framework.ViewController;
 import javafx.application.Application;
 import javafx.event.EventHandler;
 import javafx.fxml.FXMLLoader;
@@ -21,11 +25,11 @@ import javafx.stage.StageStyle;
  * @author Kajiva Kinsley
  */
 public class Main extends Application {
-    private double x = 0;
-    private double y= 0;
+
+    private StageManager stageManager = null;
     @Override
     public void start(Stage stage) throws Exception {
-        URL resource = this.getClass().getResource("/resources/layouts/DefaultController.fxml");
+        /*URL resource = this.getClass().getResource("/resources/layouts/DefaultController.fxml");
         Parent root = FXMLLoader.load(resource);
         root.setOnMousePressed( event -> {
             x = event.getSceneX();
@@ -38,13 +42,16 @@ public class Main extends Application {
         Scene scene = new Scene(root);
         stage.initStyle(StageStyle.TRANSPARENT);
         stage.setScene(scene);
-        stage.show();
+        stage.show();*/
+        stageManager = new StageManager(stage);
+        stageManager.switchScene( ViewController.DEFAULT_VIEW);
     }
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        LogManager.getLogManager().reset();
         launch(args);
     }
     

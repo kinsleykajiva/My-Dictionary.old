@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXListView?>
+<?import com.jfoenix.controls.JFXProgressBar?>
+<?import com.jfoenix.controls.JFXSpinner?>
 <?import com.jfoenix.controls.JFXTextField?>
 <?import com.jfoenix.controls.JFXToolbar?>
 <?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
@@ -9,7 +12,6 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.MenuButton?>
 <?import javafx.scene.control.MenuItem?>
-<?import javafx.scene.control.ScrollPane?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.HBox?>
@@ -41,7 +43,7 @@
                <left>
                   <Label text="My Dictionary App" textFill="WHITE" BorderPane.alignment="CENTER">
                      <font>
-                        <Font name="System Italic" size="10.0" />
+                        <Font size="10.0" />
                      </font>
                      <padding>
                         <Insets left="10.0" />
@@ -73,7 +75,7 @@
                               <Insets bottom="20.0" left="20.0" right="10.0" />
                            </HBox.margin>
                            <children>
-                              <JFXButton prefHeight="25.0" prefWidth="308.0" style="-fx-border-color: #FFF;" styleClass="button-search" text="Search" textFill="#f5f5f5" underline="true">
+                              <JFXButton fx:id="btnSearch" prefHeight="25.0" prefWidth="308.0" style="-fx-border-color: #FFF;" styleClass="button-search" text="Search" textFill="#f5f5f5" underline="true">
                                  <graphic>
                                     <FontAwesomeIconView fill="WHITE" glyphName="SEARCH" />
                                  </graphic>
@@ -81,7 +83,7 @@
                                     <Insets bottom="5.0" />
                                  </VBox.margin>
                               </JFXButton>
-                              <JFXTextField focusColor="#ff4081" prefHeight="25.0" prefWidth="310.0" promptText="Word ...." unFocusColor="#bdbdbd" />
+                              <JFXTextField fx:id="txtSearch" focusColor="#ff4081" prefHeight="25.0" prefWidth="310.0" promptText="Word ...." unFocusColor="#bdbdbd" />
                            </children>
                         </VBox>
                      </children>
@@ -101,7 +103,18 @@
          <children>
             <VBox layoutX="6.0" layoutY="5.0" prefHeight="444.0" prefWidth="333.0" style="-fx-background-color: #FFFFFF;">
                <children>
-                  <ScrollPane prefHeight="442.0" prefWidth="333.0" />
+                  <JFXProgressBar fx:id="progressbar" prefHeight="2.0" prefWidth="331.0" visible="false" />
+                  <Label fx:id="status" alignment="CENTER" prefHeight="17.0" prefWidth="332.0" text="xxxx" textAlignment="CENTER" textFill="#eb2a2a" underline="true">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                  </Label>
+                  <JFXSpinner fx:id="spinner" visible="false">
+                     <VBox.margin>
+                        <Insets left="146.0" />
+                     </VBox.margin>
+                  </JFXSpinner>
+                  <JFXListView fx:id="listview" styleClass="custom-jfx-list-view" />
                </children>
             </VBox>
          </children></Pane>
