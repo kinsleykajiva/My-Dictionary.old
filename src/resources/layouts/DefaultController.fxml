@@ -18,6 +18,7 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
 
 <AnchorPane id="parentAnchorPane" fx:id="parentAncherPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="380.0" styleClass="cardview" stylesheets="@../styles/main.css" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="brevity.main.contollers.DefaultController">
    <children>
@@ -101,7 +102,7 @@
             <String fx:value="curvey_corner" />
          </styleClass>
          <children>
-            <VBox layoutX="6.0" layoutY="5.0" prefHeight="444.0" prefWidth="333.0" style="-fx-background-color: #FFFFFF;">
+            <VBox id="vboxresults" fx:id="vboxresults" layoutX="6.0" layoutY="5.0" prefHeight="444.0" prefWidth="333.0" style="-fx-background-color: #FFFFFF;">
                <children>
                   <JFXProgressBar fx:id="progressbar" prefHeight="2.0" prefWidth="331.0" visible="false" />
                   <Label fx:id="status" alignment="CENTER" prefHeight="17.0" prefWidth="332.0" text="xxxx" textAlignment="CENTER" textFill="#eb2a2a" underline="true">
@@ -114,7 +115,35 @@
                         <Insets left="146.0" />
                      </VBox.margin>
                   </JFXSpinner>
-                  <JFXListView fx:id="listview" styleClass="custom-jfx-list-view" />
+                  <JFXListView fx:id="listview" prefHeight="410.0" prefWidth="333.0" styleClass="custom-jfx-list-view" />
+                  <VBox fx:id="vBoxExplanation" prefHeight="200.0" prefWidth="100.0" visible="false">
+                     <children>
+                        <JFXButton id="btnBack" fx:id="btnBack" text="Back" textFill="#7b1fa2">
+                           <graphic>
+                              <FontAwesomeIconView fill="#7b1fa2" glyphName="ARROW_LEFT" />
+                           </graphic>
+                        </JFXButton>
+                        <Label fx:id="txtWord" prefHeight="17.0" prefWidth="333.0" text="Label" textFill="#303f9f" underline="true">
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                           <padding>
+                              <Insets left="30.0" />
+                           </padding>
+                           <VBox.margin>
+                              <Insets />
+                           </VBox.margin>
+                        </Label>
+                        <Text fx:id="txtdefined" fill="#212121" fontSmoothingType="LCD" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="295.13671875">
+                           <VBox.margin>
+                              <Insets left="30.0" top="10.0" />
+                           </VBox.margin>
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </VBox>
                </children>
             </VBox>
          </children></Pane>
