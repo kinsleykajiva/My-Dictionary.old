@@ -2,7 +2,6 @@
 
 <?import com.jfoenix.controls.JFXButton?>
 <?import com.jfoenix.controls.JFXListView?>
-<?import com.jfoenix.controls.JFXProgressBar?>
 <?import com.jfoenix.controls.JFXSpinner?>
 <?import com.jfoenix.controls.JFXTextField?>
 <?import com.jfoenix.controls.JFXToolbar?>
@@ -84,7 +83,15 @@
                                     <Insets bottom="5.0" />
                                  </VBox.margin>
                               </JFXButton>
-                              <JFXTextField fx:id="txtSearch" focusColor="#ff4081" prefHeight="25.0" prefWidth="310.0" promptText="Word ...." unFocusColor="#bdbdbd" />
+                              <HBox>
+                                 <children>
+                                    <JFXTextField fx:id="txtSearch" focusColor="#ff4081" prefHeight="25.0" prefWidth="300.0" promptText="Word ...." unFocusColor="#bdbdbd" />
+                                    <FontAwesomeIconView fx:id="clearSearch" fill="#f8f8f8" glyphName="CLOSE" wrappingWidth="12.0">
+                                       <HBox.margin>
+                                          <Insets top="5.0" />
+                                       </HBox.margin></FontAwesomeIconView>
+                                 </children>
+                              </HBox>
                            </children>
                         </VBox>
                      </children>
@@ -102,9 +109,39 @@
             <String fx:value="curvey_corner" />
          </styleClass>
          <children>
+            <VBox id="vboxresults" fx:id="vBoxExplanation" layoutX="370.0" layoutY="5.0" prefHeight="444.0" prefWidth="333.0" style="-fx-background-color: #FFFFFF;">
+               <children>
+                  <JFXButton id="btnBack" fx:id="btnBack" text="Back" textFill="#7b1fa2">
+                     <graphic>
+                        <FontAwesomeIconView fill="#7b1fa2" glyphName="ARROW_LEFT" />
+                     </graphic>
+                  </JFXButton>
+                  <Label fx:id="txtWord" prefHeight="17.0" prefWidth="333.0" text="Label" textFill="#303f9f" underline="true">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets left="30.0" />
+                     </padding>
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Text fx:id="txtdefined" fill="#212121" fontSmoothingType="LCD" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="295.13671875">
+                     <VBox.margin>
+                        <Insets left="30.0" top="10.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                  </Text>
+               </children>
+            </VBox>
             <VBox id="vboxresults" fx:id="vboxresults" layoutX="6.0" layoutY="5.0" prefHeight="444.0" prefWidth="333.0" style="-fx-background-color: #FFFFFF;">
                <children>
-                  <JFXProgressBar fx:id="progressbar" prefHeight="2.0" prefWidth="331.0" visible="false" />
                   <Label fx:id="status" alignment="CENTER" prefHeight="17.0" prefWidth="332.0" text="xxxx" textAlignment="CENTER" textFill="#eb2a2a" underline="true">
                      <font>
                         <Font name="System Bold" size="13.0" />
@@ -115,35 +152,7 @@
                         <Insets left="146.0" />
                      </VBox.margin>
                   </JFXSpinner>
-                  <JFXListView fx:id="listview" prefHeight="410.0" prefWidth="333.0" styleClass="custom-jfx-list-view" />
-                  <VBox fx:id="vBoxExplanation" prefHeight="200.0" prefWidth="100.0" visible="false">
-                     <children>
-                        <JFXButton id="btnBack" fx:id="btnBack" text="Back" textFill="#7b1fa2">
-                           <graphic>
-                              <FontAwesomeIconView fill="#7b1fa2" glyphName="ARROW_LEFT" />
-                           </graphic>
-                        </JFXButton>
-                        <Label fx:id="txtWord" prefHeight="17.0" prefWidth="333.0" text="Label" textFill="#303f9f" underline="true">
-                           <opaqueInsets>
-                              <Insets />
-                           </opaqueInsets>
-                           <padding>
-                              <Insets left="30.0" />
-                           </padding>
-                           <VBox.margin>
-                              <Insets />
-                           </VBox.margin>
-                        </Label>
-                        <Text fx:id="txtdefined" fill="#212121" fontSmoothingType="LCD" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="295.13671875">
-                           <VBox.margin>
-                              <Insets left="30.0" top="10.0" />
-                           </VBox.margin>
-                           <font>
-                              <Font name="System Bold" size="12.0" />
-                           </font>
-                        </Text>
-                     </children>
-                  </VBox>
+                  <JFXListView fx:id="listview" prefHeight="420.0" prefWidth="333.0" styleClass="custom-jfx-list-view" />
                </children>
             </VBox>
          </children></Pane>

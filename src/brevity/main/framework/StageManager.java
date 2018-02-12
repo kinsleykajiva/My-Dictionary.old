@@ -5,6 +5,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.effect.DropShadow;
+import javafx.scene.image.Image;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
@@ -28,6 +29,8 @@ public class StageManager {
             Parent parent = FXMLLoader.load(resource);
 
             stage.centerOnScreen();
+            Image img = new Image(getClass().getResource("/resources/drawables/dictionary.png").toURI().toString());
+            stage.getIcons().add(img);
             parent.setOnMousePressed( event -> {
                 x = event.getSceneX();
                 y = event.getSceneY();
@@ -40,7 +43,7 @@ public class StageManager {
             stage.initStyle( StageStyle.TRANSPARENT);
 
             stage.show();
-        } catch (IOException  e) {
+        } catch (IOException | URISyntaxException e) {
             e.printStackTrace();
             /*close the platform or application as whole when the error happens*/
             Platform.exit();

@@ -3,10 +3,14 @@ package brevity.main.utility;
 import brevity.main.pojos.WordMeanings;
 import org.eclipse.collections.api.list.ImmutableList;
 import org.eclipse.collections.api.list.MutableList;
+import org.eclipse.collections.impl.collector.Collectors2;
 import org.eclipse.collections.impl.factory.Lists;
 import org.sqlite.SQLiteConfig;
 
 import java.sql.*;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.stream.Collectors;
 
 import static brevity.main.utility.Strings.PATH_INJAR_DB;
 
@@ -64,7 +68,7 @@ public class SqliteDB {
     }
     public ImmutableList<WordMeanings> getWords(){
         MutableList<WordMeanings> ret = Lists.mutable.empty();
-        String sql = "SELECT * FROM dictionary LIMIT 100";
+        String sql = "SELECT * FROM dictionary LIMIT 2000 "; // ORDER BY word ASC
 
         try (Connection conn = this.connect();
              Statement stmt  = conn.createStatement();
@@ -81,6 +85,9 @@ public class SqliteDB {
                  e.printStackTrace();
             System.out.println(e.getMessage());
         }
+        System.out.println(ret.size()+"size");
+        ret.sort( Comparator.comparing( WordMeanings:: getWord ) );
+
         return ret.toImmutable();
     }
     public void selectAll(){
