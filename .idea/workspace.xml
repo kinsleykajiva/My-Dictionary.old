@@ -2,34 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6477d78-2355-4017-a4d6-7ab7f1a04c43" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/drawables/dictionary.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/drawables/tray-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/brevity/main/ClippedShadow.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/drawables/dictionary.svg" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/depcache/dependencies.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/brevity/main/Main.class" afterPath="$PROJECT_DIR$/build/classes/brevity/main/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/brevity/main/contollers/DefaultController.class" afterPath="$PROJECT_DIR$/build/classes/brevity/main/contollers/DefaultController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/My-Dictionary.jar" afterPath="$PROJECT_DIR$/dist/My-Dictionary.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/My-Dictionary/brevity/main/Main.class" afterPath="$PROJECT_DIR$/out/production/My-Dictionary/brevity/main/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/My-Dictionary/brevity/main/contollers/DefaultController$1.class" afterPath="$PROJECT_DIR$/out/production/My-Dictionary/brevity/main/contollers/DefaultController$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/My-Dictionary/brevity/main/contollers/DefaultController$2.class" afterPath="$PROJECT_DIR$/out/production/My-Dictionary/brevity/main/contollers/DefaultController$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/My-Dictionary/brevity/main/contollers/DefaultController.class" afterPath="$PROJECT_DIR$/out/production/My-Dictionary/brevity/main/contollers/DefaultController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/My-Dictionary/brevity/main/framework/StageManager.class" afterPath="$PROJECT_DIR$/out/production/My-Dictionary/brevity/main/framework/StageManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/My-Dictionary/brevity/main/utility/SqliteDB.class" afterPath="$PROJECT_DIR$/out/production/My-Dictionary/brevity/main/utility/SqliteDB.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/built-jar.properties" afterPath="$PROJECT_DIR$/build/built-jar.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/resources/layouts/DefaultController.fxml" afterPath="$PROJECT_DIR$/build/classes/resources/layouts/DefaultController.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/resources/styles/main.css" afterPath="$PROJECT_DIR$/build/classes/resources/styles/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/My-Dictionary.html" afterPath="$PROJECT_DIR$/dist/My-Dictionary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/My-Dictionary.jnlp" afterPath="$PROJECT_DIR$/dist/My-Dictionary.jnlp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nbproject/private/private.xml" afterPath="$PROJECT_DIR$/nbproject/private/private.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nbproject/project.properties" afterPath="$PROJECT_DIR$/nbproject/project.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/My-Dictionary/resources/layouts/DefaultController.fxml" afterPath="$PROJECT_DIR$/out/production/My-Dictionary/resources/layouts/DefaultController.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/brevity/main/Main.java" afterPath="$PROJECT_DIR$/src/brevity/main/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/brevity/main/contollers/DefaultController.java" afterPath="$PROJECT_DIR$/src/brevity/main/contollers/DefaultController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/brevity/main/framework/StageManager.java" afterPath="$PROJECT_DIR$/src/brevity/main/framework/StageManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/brevity/main/utility/SqliteDB.java" afterPath="$PROJECT_DIR$/src/brevity/main/utility/SqliteDB.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/resources/layouts/DefaultController.fxml" afterPath="$PROJECT_DIR$/src/resources/layouts/DefaultController.fxml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/build/built-jar.properties" afterPath="$PROJECT_DIR$/build/built-jar.properties" />
+      <change beforePath="$PROJECT_DIR$/build/classes/brevity/main/Main.class" afterPath="$PROJECT_DIR$/build/classes/brevity/main/Main.class" />
+      <change beforePath="$PROJECT_DIR$/build/classes/brevity/main/contollers/DefaultController$1.class" afterPath="$PROJECT_DIR$/build/classes/brevity/main/contollers/DefaultController$1.class" />
+      <change beforePath="$PROJECT_DIR$/build/classes/brevity/main/contollers/DefaultController$2.class" afterPath="$PROJECT_DIR$/build/classes/brevity/main/contollers/DefaultController$2.class" />
+      <change beforePath="$PROJECT_DIR$/build/classes/brevity/main/contollers/DefaultController.class" afterPath="$PROJECT_DIR$/build/classes/brevity/main/contollers/DefaultController.class" />
+      <change beforePath="$PROJECT_DIR$/build/classes/brevity/main/framework/StageManager.class" afterPath="$PROJECT_DIR$/build/classes/brevity/main/framework/StageManager.class" />
+      <change beforePath="$PROJECT_DIR$/build/classes/brevity/main/utility/SqliteDB.class" afterPath="$PROJECT_DIR$/build/classes/brevity/main/utility/SqliteDB.class" />
+      <change beforePath="$PROJECT_DIR$/build/classes/resources/layouts/DefaultController.fxml" afterPath="$PROJECT_DIR$/build/classes/resources/layouts/DefaultController.fxml" />
+      <change beforePath="$PROJECT_DIR$/dist/My-Dictionary.html" afterPath="$PROJECT_DIR$/dist/My-Dictionary.html" />
+      <change beforePath="$PROJECT_DIR$/dist/My-Dictionary.jar" afterPath="$PROJECT_DIR$/dist/My-Dictionary.jar" />
+      <change beforePath="$PROJECT_DIR$/dist/My-Dictionary.jnlp" afterPath="$PROJECT_DIR$/dist/My-Dictionary.jnlp" />
+      <change beforePath="$PROJECT_DIR$/dist/bundles/My-Dictionary-1.0.exe" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/lib/commons-compress-1.14.jar" afterPath="$PROJECT_DIR$/dist/lib/commons-compress-1.14.jar" />
+      <change beforePath="$PROJECT_DIR$/dist/lib/commons-csv-1.5.jar" afterPath="$PROJECT_DIR$/dist/lib/commons-csv-1.5.jar" />
+      <change beforePath="$PROJECT_DIR$/dist/lib/commons-io-2.6.jar" afterPath="$PROJECT_DIR$/dist/lib/commons-io-2.6.jar" />
+      <change beforePath="$PROJECT_DIR$/dist/lib/commons-lang3-3.7.jar" afterPath="$PROJECT_DIR$/dist/lib/commons-lang3-3.7.jar" />
+      <change beforePath="$PROJECT_DIR$/dist/lib/controlsfx-8.40.13.jar" afterPath="$PROJECT_DIR$/dist/lib/controlsfx-8.40.13.jar" />
+      <change beforePath="$PROJECT_DIR$/dist/lib/eclipse-collections-9.1.0.jar" afterPath="$PROJECT_DIR$/dist/lib/eclipse-collections-9.1.0.jar" />
+      <change beforePath="$PROJECT_DIR$/dist/lib/eclipse-collections-api-9.1.0.jar" afterPath="$PROJECT_DIR$/dist/lib/eclipse-collections-api-9.1.0.jar" />
+      <change beforePath="$PROJECT_DIR$/dist/lib/fontawesomefx-8.9.jar" afterPath="$PROJECT_DIR$/dist/lib/fontawesomefx-8.9.jar" />
+      <change beforePath="$PROJECT_DIR$/dist/lib/gson-2.8.1.jar" afterPath="$PROJECT_DIR$/dist/lib/gson-2.8.1.jar" />
+      <change beforePath="$PROJECT_DIR$/dist/lib/guava-22.0.jar" afterPath="$PROJECT_DIR$/dist/lib/guava-22.0.jar" />
+      <change beforePath="$PROJECT_DIR$/dist/lib/guice-4.1.0.jar" afterPath="$PROJECT_DIR$/dist/lib/guice-4.1.0.jar" />
+      <change beforePath="$PROJECT_DIR$/dist/lib/jfoenix.jar" afterPath="$PROJECT_DIR$/dist/lib/jfoenix.jar" />
+      <change beforePath="$PROJECT_DIR$/dist/lib/okhttp-3.8.1.jar" afterPath="$PROJECT_DIR$/dist/lib/okhttp-3.8.1.jar" />
+      <change beforePath="$PROJECT_DIR$/dist/lib/okio-1.13.0.jar" afterPath="$PROJECT_DIR$/dist/lib/okio-1.13.0.jar" />
+      <change beforePath="$PROJECT_DIR$/dist/lib/sqlite-jdbc-3.19.3.jar" afterPath="$PROJECT_DIR$/dist/lib/sqlite-jdbc-3.19.3.jar" />
+      <change beforePath="$PROJECT_DIR$/nbproject/private/private.properties" afterPath="$PROJECT_DIR$/nbproject/private/private.properties" />
+      <change beforePath="$PROJECT_DIR$/nbproject/project.properties" afterPath="$PROJECT_DIR$/nbproject/project.properties" />
+      <change beforePath="$PROJECT_DIR$/setup/My-Dictionary.exe" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,42 +46,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DefaultController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/brevity/main/contollers/DefaultController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="225" column="12" lean-forward="true" selection-start-line="225" selection-start-column="12" selection-end-line="225" selection-end-column="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/brevity/main/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="547">
-              <caret line="128" column="26" lean-forward="true" selection-start-line="128" selection-start-column="26" selection-end-line="128" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StageManager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/brevity/main/framework/StageManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -161,7 +132,7 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator currentView="PackagesPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -181,60 +152,6 @@
             <path>
               <item name="My-Dictionary" type="58d84e3e:PackageViewProjectNode" />
               <item name="My-Dictionary" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="My-Dictionary" type="58d84e3e:PackageViewProjectNode" />
-              <item name="My-Dictionary" type="616d4139:PackageViewModuleNode" />
-              <item name="brevity.main" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="My-Dictionary" type="58d84e3e:PackageViewProjectNode" />
-              <item name="My-Dictionary" type="616d4139:PackageViewModuleNode" />
-              <item name="brevity.main" type="1f31426a:PackageElementNode" />
-              <item name="contollers" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="My-Dictionary" type="58d84e3e:PackageViewProjectNode" />
-              <item name="My-Dictionary" type="616d4139:PackageViewModuleNode" />
-              <item name="brevity.main" type="1f31426a:PackageElementNode" />
-              <item name="utility" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="My-Dictionary" type="58d84e3e:PackageViewProjectNode" />
-              <item name="My-Dictionary" type="616d4139:PackageViewModuleNode" />
-              <item name="resources" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="My-Dictionary" type="58d84e3e:PackageViewProjectNode" />
-              <item name="My-Dictionary" type="616d4139:PackageViewModuleNode" />
-              <item name="resources" type="1f31426a:PackageElementNode" />
-              <item name="layouts" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="My-Dictionary" type="58d84e3e:PackageViewProjectNode" />
-              <item name="My-Dictionary" type="616d4139:PackageViewModuleNode" />
-              <item name="resources" type="1f31426a:PackageElementNode" />
-              <item name="raw" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="My-Dictionary" type="58d84e3e:PackageViewProjectNode" />
-              <item name="My-Dictionary" type="616d4139:PackageViewModuleNode" />
-              <item name="resources" type="1f31426a:PackageElementNode" />
-              <item name="raw" type="1f31426a:PackageElementNode" />
-              <item name="dictionary" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="My-Dictionary" type="58d84e3e:PackageViewProjectNode" />
-              <item name="My-Dictionary" type="616d4139:PackageViewModuleNode" />
-              <item name="resources" type="1f31426a:PackageElementNode" />
-              <item name="raw" type="1f31426a:PackageElementNode" />
-              <item name="webstar" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="My-Dictionary" type="58d84e3e:PackageViewProjectNode" />
-              <item name="My-Dictionary" type="616d4139:PackageViewModuleNode" />
-              <item name="resources" type="1f31426a:PackageElementNode" />
-              <item name="styles" type="1f31426a:PackageElementNode" />
             </path>
           </expand>
           <select />
@@ -257,55 +174,7 @@
               <item name="My-Dictionary" type="b2602c69:ProjectViewProjectNode" />
               <item name="My-Dictionary" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="My-Dictionary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="My-Dictionary" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="contollers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="My-Dictionary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="My-Dictionary" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="framework" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="My-Dictionary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="My-Dictionary" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="utility" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="My-Dictionary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="My-Dictionary" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="My-Dictionary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="My-Dictionary" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="drawables" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="My-Dictionary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="My-Dictionary" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="My-Dictionary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="My-Dictionary" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="styles" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -364,6 +233,12 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.App">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+    </configuration>
     <configuration name="App" type="Application" factoryName="Application" singleton="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="brevity.main.Main" />
@@ -454,12 +329,6 @@
       <module name="My-Dictionary" />
       <envs />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -494,12 +363,6 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
-    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -533,6 +396,12 @@
       <envs />
       <properties />
       <listeners />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.App" />
@@ -573,25 +442,24 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32993197" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293718" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25510204" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5510204" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25510204" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8624788" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26701966" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26701966" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.72959185" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32993197" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -638,6 +506,14 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/brevity/main/framework/StageManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/brevity/main/contollers/DefaultController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="901">
@@ -652,9 +528,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="765">
           <caret line="45" column="30" lean-forward="false" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -683,10 +557,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="class#Employee#0;class#SearchSlideDemo#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -704,9 +574,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -744,9 +612,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="13" column="33" lean-forward="true" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -928,10 +794,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="156" column="16" lean-forward="false" selection-start-line="156" selection-start-column="16" selection-end-line="156" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="class#Employee#0;class#SearchSlideDemo#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -955,43 +817,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa0.406/dict/data.adj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-227">
-          <caret line="90" column="150" lean-forward="false" selection-start-line="90" selection-start-column="142" selection-end-line="90" selection-end-column="150" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa0.699/dict/index.verb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="8849" column="29" lean-forward="false" selection-start-line="8849" selection-start-column="29" selection-end-line="8849" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa0.801/dict/index.adv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="4497" column="31" lean-forward="false" selection-start-line="4497" selection-start-column="31" selection-end-line="4497" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa0.782/dict/index.adj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="316" column="30" lean-forward="false" selection-start-line="316" selection-start-column="22" selection-end-line="316" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa0.406/dict/data.adj" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa0.699/dict/index.verb" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa0.801/dict/index.adv" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa0.782/dict/index.adj" />
     <entry file="file://$PROJECT_DIR$/src/brevity/main/utility/SqliteDB.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="79" column="58" lean-forward="false" selection-start-line="79" selection-start-column="58" selection-end-line="79" selection-end-column="58" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1012,25 +845,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="51" column="49" lean-forward="false" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/brevity/main/framework/StageManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/brevity/main/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="547">
-          <caret line="128" column="26" lean-forward="true" selection-start-line="128" selection-start-column="26" selection-end-line="128" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1038,16 +852,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="18" column="15" lean-forward="true" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/brevity/main/framework/StageManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/brevity/main/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1666">
+          <caret line="128" column="26" lean-forward="false" selection-start-line="128" selection-start-column="26" selection-end-line="128" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/brevity/main/contollers/DefaultController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="225" column="12" lean-forward="true" selection-start-line="225" selection-start-column="12" selection-end-line="225" selection-end-column="12" />
+        <state relative-caret-position="-51">
+          <caret line="223" column="38" lean-forward="false" selection-start-line="223" selection-start-column="38" selection-end-line="223" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -3,29 +3,32 @@
   <information>
     <title>My-Dictionary</title>
     <vendor>Kajiva Kinsley</vendor>
-    <description>null</description>
+    <description>This is a small dictionary application.</description>
     <offline-allowed/>
   <shortcut><desktop/></shortcut>
   </information>
   <resources>
     <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
-    <jar href="My-Dictionary.jar" size="23622877" download="eager" />
-    <jar href="lib\commons-compress-1.14.jar" size="530012" download="eager" />
-    <jar href="lib\commons-csv-1.5.jar" size="41586" download="eager" />
-    <jar href="lib\commons-io-2.6.jar" size="214788" download="eager" />
-    <jar href="lib\commons-lang3-3.7.jar" size="499634" download="eager" />
-    <jar href="lib\controlsfx-8.40.13.jar" size="1213306" download="eager" />
-    <jar href="lib\eclipse-collections-9.1.0.jar" size="9812302" download="eager" />
-    <jar href="lib\eclipse-collections-api-9.1.0.jar" size="1171316" download="eager" />
-    <jar href="lib\fontawesomefx-8.9.jar" size="571068" download="eager" />
-    <jar href="lib\gson-2.8.1.jar" size="232620" download="eager" />
-    <jar href="lib\guava-22.0.jar" size="2575022" download="eager" />
-    <jar href="lib\guice-4.1.0.jar" size="674028" download="eager" />
-    <jar href="lib\jfoenix.jar" size="2386350" download="eager" />
-    <jar href="lib\okhttp-3.8.1.jar" size="398122" download="eager" />
-    <jar href="lib\okio-1.13.0.jar" size="81811" download="eager" />
-    <jar href="lib\sqlite-jdbc-3.19.3.jar" size="6213670" download="eager" />
+    <jar href="My-Dictionary.jar" size="23671196" download="eager" />
+    <jar href="lib\commons-compress-1.14.jar" size="558605" download="eager" />
+    <jar href="lib\commons-csv-1.5.jar" size="44636" download="eager" />
+    <jar href="lib\commons-io-2.6.jar" size="227914" download="eager" />
+    <jar href="lib\commons-lang3-3.7.jar" size="525686" download="eager" />
+    <jar href="lib\controlsfx-8.40.13.jar" size="1289736" download="eager" />
+    <jar href="lib\eclipse-collections-9.1.0.jar" size="9994413" download="eager" />
+    <jar href="lib\eclipse-collections-api-9.1.0.jar" size="1225326" download="eager" />
+    <jar href="lib\fontawesomefx-8.9.jar" size="576200" download="eager" />
+    <jar href="lib\gson-2.8.1.jar" size="251762" download="eager" />
+    <jar href="lib\guava-22.0.jar" size="2747448" download="eager" />
+    <jar href="lib\guice-4.1.0.jar" size="728321" download="eager" />
+    <jar href="lib\jfoenix.jar" size="2470594" download="eager" />
+    <jar href="lib\okhttp-3.8.1.jar" size="420482" download="eager" />
+    <jar href="lib\okio-1.13.0.jar" size="87650" download="eager" />
+    <jar href="lib\sqlite-jdbc-3.19.3.jar" size="6226879" download="eager" />
   </resources>
+<security>
+  <all-permissions/>
+</security>
   <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="My-Dictionary" >
     <param name="requiredFXVersion" value="8.0+"/>
   </applet-desc>
