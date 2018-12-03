@@ -24,10 +24,10 @@ public class SqliteDB {
         // SQLite connection string
 
         SQLiteConfig config = new SQLiteConfig();
-        config.setReadOnly(true);
+        config.setReadOnly(false);
         Connection conn = null;
         try {
-            conn = DriverManager.getConnection(PATH_INJAR_DB , config.toProperties());
+            conn = DriverManager.getConnection("jdbc:sqlite:mydatabase.db" , config.toProperties());
         } catch (SQLException e) {
             System.out.println(e.getMessage());
         }
@@ -57,7 +57,7 @@ public class SqliteDB {
                 + "	definitions text NOT NULL"
                 + ");";
 
-        try (Connection conn = DriverManager.getConnection(PATH_INJAR_DB);
+        try (Connection conn = DriverManager.getConnection("jdbc:sqlite:mydatabase.db");
              Statement stmt = conn.createStatement()) {
             // create a new table
             System.out.println("done");

@@ -1,10 +1,9 @@
 package brevity.main.utility;
 
+import brevity.main.pojos.WordJsonReader;
 import brevity.main.pojos.WordMeanings;
-import com.google.gson.JsonArray;
-import com.google.gson.JsonElement;
-import com.google.gson.JsonObject;
-import com.google.gson.JsonParser;
+import com.google.gson.*;
+import com.google.gson.reflect.TypeToken;
 import com.google.gson.stream.JsonReader;
 import com.google.gson.stream.JsonToken;
 import org.eclipse.collections.api.list.ImmutableList;
@@ -28,16 +27,37 @@ import static brevity.main.utility.Strings.PATH_SECONADRY_DICTIONARY;
 public final class Methods {
    static String json = "{\"brand\" : \"Toyota\", \"doors\" : \"5\" , \"doors\" : \"5\" , \"xxx\" : \"dterte\"}";
     public static void main (String[] a) {
-      //  createNewTable();
-        // stem.out.print( getDictionaryData( json ) );
-        SqliteDB db = new SqliteDB();
-        db.selectAll();
-       // loadDictionary(PATH_DEFAULT_DICTIONARY);
-       // loadDictionary(PATH_SECONADRY_DICTIONARY);
-       // loadDictionary(PATH_DEFAULT_DICTIONARY);
+       // createNewTable();
+        //stem.out.print( getDictionaryData( json ) );
+      //  SqliteDB db = new SqliteDB();
+       // db.selectAll();
+       //loadDictionary(PATH_DEFAULT_DICTIONARY);
+        loadHugeJsonFile("C:\\Users\\kajiva kinsley\\netbeansProjects\\My-Dictionary\\src\\resources\\raw\\dictionary\\SELECT___FROM__entries_.json");
+        //loadDictionary(PATH_SECONADRY_DICTIONARY);
+        //loadDictionary(PATH_DEFAULT_DICTIONARY);
 
     }
     static  ImmutableMap ma1 ,ma2; static int w=0;
+    private static void loadHugeJsonFile(String path){
+       final java.lang.reflect.Type REVIEW_TYPE = new TypeToken<List< WordJsonReader >>() {
+        }.getType();
+        Gson gson = new Gson();
+        JsonReader reader = null;
+        try {
+            reader = new JsonReader(new FileReader(path));
+        } catch ( FileNotFoundException e ) {
+            e.printStackTrace();
+        }
+        List<WordJsonReader> data = gson.fromJson(reader, REVIEW_TYPE); // contains the whole reviews list
+        System.out.println( data.get( 20 ).getWord() +"----" + data.size());
+        SqliteDB db = new SqliteDB();
+        data.stream()
+                .peek( ele-> System.out.println("At "+ele.getWord() ))
+                .forEach( ele->
+            db.insert(ele.getWord(),"Word type: "+ele.getWordtype()+" . " + ele.getDefinition())
+         );
+
+    }
     public static void loadDictionary (String dictionaryFile) {
         try ( Reader reader1 = new InputStreamReader( Methods.class.getResourceAsStream( dictionaryFile ) , "UTF-8" ) ) {
             JsonReader jreader = new JsonReader(new InputStreamReader( Methods.class.getResourceAsStream( dictionaryFile ) , "UTF-8" ) );
@@ -45,11 +65,9 @@ public final class Methods {
             jreader.beginObject();
             SqliteDB db = new SqliteDB();
             while (jreader.hasNext()) {
-               // System.out.println("\n");
+                //System.out.println("--\n");
                 db.insert(jreader.nextName(), jreader.nextString());
-                //System.out.println(jreader.nextName() + " : " + jreader.nextString());
-
-
+                System.out.println(jreader.nextName() + " : " + jreader.nextString());
             }
             jreader.endObject();
             //jreader.endArray();
